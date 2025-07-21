@@ -5,7 +5,7 @@ on:
     branches: [ main ]
 
 env:
-  IMAGE_NAME: marypearl/adservice
+  IMAGE_NAME: alade01/adservice
 
 jobs:
   build-and-push:
@@ -30,5 +30,5 @@ jobs:
           context: .
           push: true
           tags: |
-            marypearl/adservice:latest
-            marypearl/adservice:${{ github.sha }}
+            alade01/adservice:latest
+            alade01/adservice:${{ github.sha }}

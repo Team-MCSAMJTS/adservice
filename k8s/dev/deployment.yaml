@@ -29,7 +29,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: marypearl/adservice:latest
+        image: alade01/adservice:latest
         ports:
         - containerPort: 9555
         env:
