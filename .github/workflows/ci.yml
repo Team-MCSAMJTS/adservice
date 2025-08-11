@@ -32,3 +32,4 @@ jobs:
           tags: |
             alade01/adservice:latest
             alade01/adservice:${{ github.sha }}
+
